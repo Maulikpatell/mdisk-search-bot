@@ -17,16 +17,10 @@ class Config(object):
 
 🤖 My Name: <a href='https://t.me/DTG_BOTS'>Mdisk Search Robot</a>
 
-📝 Language : <a href='https://www.python.org'> Python V3</a>
-
-📚 Library: <a href='https://docs.pyrogram.org'> Pyrogram</a>
-
-📡 Server: <a href='https://heroku.com'>Heroku</a>
-
-👨‍💻 Created By: <a href='https://t.me/DTG_TV'>DTG TV</a></b>
+👨‍💻 Created By: <a href='https://t.me/piracyoff'>Piracy Off</a></b>
 """
 
-    ABOUT_HELP_TEXT = """<b>👨‍💻 Developer : <a href='https://t.me/DTG_Admin_bot'>DTG TV</a>
+    ABOUT_HELP_TEXT = """<b>👨‍💻 Developer : <a href='https://t.me/piracyoff'>Piracy off</a>
 
 If You Want Your Own Bot Like This Then You Can Contact Our Developer.</b>
 """
@@ -34,11 +28,11 @@ If You Want Your Own Bot Like This Then You Can Contact Our Developer.</b>
     HOME_TEXT = """
 <b>Hey! {}😅,
 
-I'm Mdisk Search Robot.🤖</a>
+I'm Ninjas TV Search Robot.🤖</a>
 
 I Can Search!🔍 What You Want?😜
 
-<a>Deploy ❤ By @DTG_TV</a></b>
+<a>Deploy ❤ By @Piracyoff</a></b>
 """
 
 
@@ -49,7 +43,7 @@ I'm Mdisk Search Robot.🤖</a>
 
 I Can Search!🔍 What You Want?😜
 
-<a>Deploy ❤ By @DTG_TV</a></b>
+<a>Deploy ❤ By @Piracyoff</a></b>
 """
 
 

@@ -15,7 +15,7 @@ class Config(object):
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
     ABOUT_BOT_TEXT = """<b>This is Mdisk Search Bot.
 
-🤖 My Name: <a href='https://t.me/DTG_BOTS'>Mdisk Search Robot</a>
+🤖 My Name: <a href='https://t.me/Ninjassearchbot'>Ninjas Search Robot</a>
 
 👨‍💻 Created By: <a href='https://t.me/piracyoff'>Piracy Off</a></b>
 """
@@ -39,7 +39,7 @@ I Can Search!🔍 What You Want?😜
     START_MSG = """
 <b>Hey! {}😅,
 
-I'm Mdisk Search Robot.🤖</a>
+I'm Ninjas TV Search Robot.🤖</a>
 
 I Can Search!🔍 What You Want?😜
 

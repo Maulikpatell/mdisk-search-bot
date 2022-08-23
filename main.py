@@ -3,7 +3,7 @@
 from configs import Config
 from pyrogram import Client, filters, idle
 from pyrogram.errors import QueryIdInvalid
-from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, InlineQuery, InlineQueryResultArticle, \
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, InlineQuery, InlineQueryResultArticle,
     InputTextMessageContent
 from TeamTeleRoid.forcesub import ForceSub
 
@@ -72,11 +72,11 @@ async def inline_handlers(_, event: Message):
     try:
         a=await event.reply_text(answers,catch_time=0)
         print(f"[{Config.BOT_SESSION_NAME}] - Answered Successfully - {event.from_user.first_name}")
-        await asyncio.sleep(10)
-        await a.message.delete()
+        
+       
     except:
         print(f"[{Config.BOT_SESSION_NAME}] - Failed to Answer - {event.from_user.first_name}")		
-        await a.message.delete()
+        
 	     
 
 

@@ -28,13 +28,13 @@ User = Client(
 async def start_handler(_, event: Message):
 
     await event.reply_photo(
-        photo="https://te.legra.ph/file/965fdc73a8bee02b968a3.jpg",
+        photo="https://te.legra.ph/file/864995ac2057e7ed188c8.jpg",
         caption=Config.START_MSG.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-	    [InlineKeyboardButton("➕ Add Me In Your Groups ➕", url="http://t.me/DTG_SIMPLE_BOT?startgroup=true")],
-            [InlineKeyboardButton("Our Channel", url="https://t.me/DTG_TV"),
-             InlineKeyboardButton("Our Movie Group", url="https://t.me/Movie_Search_bot_hindi")],
-	    [InlineKeyboardButton("Support Group", url="https://t.me/DTG_SUPPORT")],
+	    [InlineKeyboardButton("➕ Add Me In Your Groups ➕", url="http://t.me/Ninjassearchbot?startgroup=true")],
+            [InlineKeyboardButton("Our Channel", url="https://t.me/NinjasTV"),
+             InlineKeyboardButton("Our Movie Group", url="https://t.me/NinjasTV")],
+	    [InlineKeyboardButton("Support Group", url="https://t.me//NinjasTVDiscuss")],
             [InlineKeyboardButton("Help", callback_data="Help_msg"),
              InlineKeyboardButton("About", callback_data="About_msg")]
             ])
